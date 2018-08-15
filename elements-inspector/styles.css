@@ -1,0 +1,27 @@
+body {
+    font-family: 'Helvetica', 'Tahoma', 'Verdana', 'Arial', 'sans-serif';
+    text-align: center;
+}
+
+p {
+    color: blue;
+    font-style: italic;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active, a:focus {
+    color: orangered;
+}
+
+.test-class {
+    color:gray;
+}
+
+.important {
+    color: red;
+    font-weight: bolder;
+    text-transform: uppercase;
+}

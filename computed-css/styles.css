@@ -1,0 +1,24 @@
+* {
+    color: white;
+}
+
+h3 {
+    color: yellow;
+}
+
+.haha-i-win {
+    color: orange;
+}
+
+#no-you-dont {
+    color: red;
+}
+
+div {
+    padding-left: 50%;
+}
+
+.centered {
+    color: black;
+    text-align: center;
+}
