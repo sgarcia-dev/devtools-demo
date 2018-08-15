@@ -1,13 +1,13 @@
-function firstFunction() {
-  throw new Error("Stack Trace Error");
+function first() {
+  throw new Error("Whoops! An error ocurred!");
 }
 
-function secondFunction() {
-  firstFunction();
+function second() {
+    first();
 }
 
-function thirdFunction() {
-  secondFunction();
+function third() {
+    second();
 }
 
-thirdFunction();
+first();
