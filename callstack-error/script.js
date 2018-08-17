@@ -10,4 +10,4 @@ function third() {
     second();
 }
 
-first();
+third();
